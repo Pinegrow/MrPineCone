@@ -1,0 +1,138 @@
+
+
+body
+{
+    font-family: Lato, sans-serif;
+    color: #686868;
+}
+
+section
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h1
+{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #7e7e7e;
+}
+
+h2
+{
+    font-size: 17px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+h3
+{
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 0;
+    color: #979797;
+}
+
+.poster
+{
+    width: 65vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.text
+{
+    width: 35vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: auto;
+}
+
+.description
+{
+    font-size: 15px;
+}
+
+.tags
+{
+    color: #adadad;
+}
+
+.experience
+{
+    font-size: 13px;
+    color: #a7a7a7;
+}
+
+.experience li
+{
+    margin-bottom: 4px;
+    line-height: 1.25;
+}
+
+@media (max-width:767px)
+{
+    .experience > div
+    {
+        margin-bottom: 20px;
+    }
+}
+
+.social-buttons
+{
+}
+
+.social-button
+{
+    background-color: #b9b9b9;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1;
+    padding-top: 5px;
+    font-size: 21px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+.social-button:hover
+{
+    background-color: #747474;
+    color: #ffffff;
+}
+
+@media (max-width:991px)
+{
+    .text
+    {
+        position: inherit;
+        width: auto;
+        height: auto;
+        left: auto;
+        right: auto;
+        top: auto;
+        bottom: auto;
+        padding: 10px 0 70px;
+    }
+    .poster
+    {
+        width: 100%;
+        height: 60vh;
+    }
+}
+
