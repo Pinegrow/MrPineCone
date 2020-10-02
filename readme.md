@@ -1,4 +1,4 @@
-Mr. Pine Cone - A simple personal website theme
+Mr. Pine Cone - A simple personal website theme included with Pinegrow and without Pinegrow
 ========
 
 This is a static Bootstrap-based HTML theme for a simple personal website, inspired by [about.me](http://about.me). It's created with [Pinegrow Web Editor](http://pinegrow.com).
